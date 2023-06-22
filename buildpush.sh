@@ -4,7 +4,7 @@
 # Currently, intended to be run from a local machine
 
 APP_NAME="hello_world"
-DOCKER_HUB="richardsondev"
+DOCKER_HUB="YourDockerHubUsername"
 
 # Step 1: Build the Docker image and push to Docker Hub
 # This builds and pushes ARM32, ARM64, and X64 images
