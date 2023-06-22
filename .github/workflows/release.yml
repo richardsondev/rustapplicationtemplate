@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     env:
-      APP_NAME: HelloWorld
+      APP_NAME: hello_world
     strategy:
       matrix:
         target:
