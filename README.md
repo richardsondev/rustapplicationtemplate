@@ -37,6 +37,12 @@ This project uses GitHub Actions for continuous integration. Upon each push to y
 
 The artifacts will then be available for download from the "Actions" tab on your repository and also from the "Releases" tab for release events.
 
+## Docker image
+
+This project also contains `buildpush.sh` which will build a distroless Docker image with the application as the entry point. By default, the 
+script will push the built multi-arch images to DockerHub. [Here](https://hub.docker.com/r/richardsondev/hello_world/tags) is an example of 
+what it would look like.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
